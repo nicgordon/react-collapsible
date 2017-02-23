@@ -50,6 +50,6 @@
   },
   "scripts": {
     "build": "babel src/Collapsible.js > dist/Collapsible.js",
-    "postinstall": "npm run build"
+    "postinstall": "mkdir -p dist && npm run build"
   }
 }
